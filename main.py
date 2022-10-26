@@ -6,12 +6,12 @@
 
 def print_hi(name):
     # スクリプトをデバッグするには以下のコード行でブレークポイントを使用してください。
-    print(f'Hi, {name}')  # Ctrl+F8を押すとブレークポイントを切り替えます。
+    print(f'Hello, {name}')  # Ctrl+F8を押すとブレークポイントを切り替えます。
 
 
 # ガター内の緑色のボタンを押すとスクリプトを実行します。
 if __name__ == '__main__':
-    name = input("What is your name?")
+    name = input("名前はなんだい?")
     print_hi(name)
 
 # PyCharm のヘルプは https://www.jetbrains.com/help/pycharm/ を参照してください
